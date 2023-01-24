@@ -7634,24 +7634,63 @@ Children:
       ModellingRule: Optional
       Value: 140.0
   - Name: Label1
-    Id: g=9bcf5201a5074e1705703ec29451b140
+    Id: g=62d57ec77c6fd98ae1b9e14e239ef499
     Type: Label
     Children:
     - Name: Text
-      Id: g=0289815d618cdb05ec2a2f82fe4a969e
+      Id: g=0fe022ef1395c047b83597391c05c7a1
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"ciao"}
-    - Name: LeftMargin
-      Id: g=a2bc326471a8203870fb4585c4c583cd
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 280.0
     - Name: TopMargin
-      Id: g=5e6699f6acc9a7ab927fff43894c0550
+      Id: g=543242ff5002476911f9c38395faa9c0
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 220.0
+      Value: 203.0
+    - Name: LeftMargin
+      Id: g=05c22540c3b4301783a4f89f63425a16
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 455.0
+    - Name: Height
+      Id: g=b8da003210116817490fb86a296786c0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 37.0
+    - Name: Width
+      Id: g=06ae89aa4150d99288c29609a0a589df
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 115.0
+  - Name: Switch1
+    Id: g=9c901f40974118cf12aba67e526b1d42
+    Type: Switch
+    Children:
+    - Name: Checked
+      Id: g=ed1384ce317d8de50e13788341d75da8
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Id: g=3679d2315388e2e403fda50ffdf9a046
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: TopMargin
+      Id: g=c44c236b8fd58e44000675dabe4a283e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 131.0
+    - Name: LeftMargin
+      Id: g=1c4174fe5ae67cff4bb5c1939e24bcdd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 440.0

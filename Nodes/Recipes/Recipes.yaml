@@ -89,3 +89,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
+  - Class: Reference
+    Target: ns=23;i=76
+    Direction: Forward
