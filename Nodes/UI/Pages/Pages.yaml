@@ -7633,3 +7633,25 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 140.0
+  - Name: Label1
+    Id: g=9bcf5201a5074e1705703ec29451b140
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=0289815d618cdb05ec2a2f82fe4a969e
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"ciao"}
+    - Name: LeftMargin
+      Id: g=a2bc326471a8203870fb4585c4c583cd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 280.0
+    - Name: TopMargin
+      Id: g=5e6699f6acc9a7ab927fff43894c0550
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 220.0
